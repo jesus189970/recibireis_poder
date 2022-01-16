@@ -1,100 +1,138 @@
 body {
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 0;
-    margin-top: 0;
-    color: teal;
-    
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: o;
+  color: teal;
+  background-image: url("churchone.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
 
 header {
-    display: flex;
-    justify-content: space-evenly;
-    position: fixed;
-    background-color: black;
-    padding-top: none;
-    margin-top: none;
-    height: 15%;
-    border-bottom: black 2px solid;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  background-color: black;
+  padding-top: none;
+  margin-top: none;
+  height: 15%;
+  border-bottom: black 2px solid;
 }
 
 #name {
-    font-family: 'Fuzzy Bubbles', cursive;
-    font-family: 'The Nautigal', cursive;
-    font-size: 5em;
-    margin-top: 0;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-family: "The Nautigal", cursive;
+  font-size: 5em;
+  margin-top: 0;
 }
 
 #church_logo {
-    width: 9%;
-    border-radius: 5%;;
+  width: 9%;
+  border-radius: 5%;
 }
 
 #logo_box {
-    width: 10%;
+  width: 10%;
 }
 
 .logo {
-    width: 35%;
-    padding-top: 5%;
-    margin-right: 10%;
-    margin-top: 18%;
+  width: 35%;
+  padding-top: 5%;
+  margin-right: 10%;
+  margin-top: 18%;
 }
 
 h2 {
-    margin-top: 3%;
-    font-size: 2.5em;
-    font-family: 'Fuzzy Bubbles', cursive;
-    font-family: 'The Nautigal', cursive;
+  margin-top: 3%;
+  font-size: 2.5em;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-family: "The Nautigal", cursive;
 }
 
 #cbox {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 #church {
-    width: 100%;
-    margin-top: 5%;
-    
+  width: 100%;
+  margin-top: 5%;
 }
 
 #disclaimer {
-    background-color: black;
-    
+  background-color: black;
 }
 
 h3 {
-    text-align: center;
-    font-size: 2em;
+  text-align: center;
+  font-size: 2em;
 }
 
 #schedule_box {
-    text-align: center;
+  text-align: center;
 }
 
 #schedule {
-    width: 80%;
-    text-align: center;
-    border-radius: 5%;
+  width: 80%;
+  text-align: center;
+  border-radius: 5%;
 }
 
 #form_container {
-    width: 40%;
-    margin-left: 9%;
-    margin-top: 2.5%;
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 2.5%;
+  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+
 }
 
 input {
-    margin-bottom: 2%;
-
+  margin-bottom: 2%;
 }
 
 textarea {
-    margin-bottom: 2%;
+  margin-bottom: 2%;
+}
+
+#pastors {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+
+#p_photo {
+    border-radius: 35%;
+    width: 30%;
+    margin-left: 10%;
+}
+
+p {
+    display: inline-block;
+    margin-right: 5%;
+    font-size: 1.75em;
+    margin-left: 4%;
+    margin-top: 7%;
+    color: teal;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+button {
+    width: 50%;
+    margin-left: 24.5%;
 }
