@@ -123,7 +123,7 @@ p {
   font-size: 1.75em;
   margin-left: 4%;
   margin-top: 7%;
-  color: teal;
+  color: white;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -154,18 +154,21 @@ button {
 }
 
 @media screen and (max-width: 1025px) {
+  #name {
+    font-size: 6em;
+    margin-top: 5%;
+  }
 
-    #name {
-        font-size: 6em;
-        margin-top: 5%;
-    }
+  #church_logo {
+    width: 20%;
+  }
 
-    #church_logo {
-        width: 20%;
-    }
+  #church {
+      margin-top: 20%;
+  }
 
   #p_photo {
-    width: 25%;
+    width: 30%;
   }
 
   p {
@@ -173,11 +176,13 @@ button {
   }
 
   #logo_box {
-      margin-left: 6%;
+    margin-left: 6%;
+    margin-top: 0;
   }
 
   .logo {
-      width: 60%;
+    width: 55%;
+    
   }
 }
 
@@ -208,7 +213,6 @@ button {
 
   #logo_box {
     margin-left: 6.5%;
-    
   }
 
   #p_photo {
@@ -220,14 +224,13 @@ button {
   }
 
   form {
-      width: 80%;
+    width: 80%;
   }
-
 }
 
 @media screen and (max-width: 415px) {
   #name {
-    font-size: 2em;
+    font-size: 2.7em;
     margin-top: 7%;
   }
 
@@ -264,13 +267,10 @@ button {
   }
 
   @media screen and (max-width: 412px) {
-      #name {
-          font-size: 2.6em;
-          margin-top: 9%;
-      }
-
-      
-      
+    #name {
+      font-size: 2.6em;
+      margin-top: 9%;
+    }
   }
 
   @media screen and (max-width: 378px) {
@@ -294,7 +294,7 @@ button {
   }
 
   #logo {
-      margin-top: 0%;
+    margin-top: 0%;
   }
 
   #church_logo {
