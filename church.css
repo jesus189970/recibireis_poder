@@ -5,12 +5,11 @@ body {
   margin-top: 0;
   margin-bottom: o;
   color: teal;
-  background-image: url("churchone.JPG");
+  background-image: url("churchone.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  
 }
 
 header {
@@ -33,7 +32,6 @@ header {
 
 #church_logo {
   width: 9%;
-  border-radius: 5%;
 }
 
 #logo_box {
@@ -97,7 +95,6 @@ form {
   flex-direction: column;
   justify-content: center;
   width: 60%;
-
 }
 
 input {
@@ -109,30 +106,198 @@ textarea {
 }
 
 #pastors {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
 }
 
-
 #p_photo {
-    border-radius: 35%;
-    width: 30%;
-    margin-left: 10%;
+  border-radius: 35%;
+  width: 30%;
+  margin-left: 9%;
 }
 
 p {
-    display: inline-block;
-    margin-right: 5%;
-    font-size: 1.75em;
-    margin-left: 4%;
-    margin-top: 7%;
-    color: teal;
-    font-family: 'IBM Plex Sans', sans-serif;
-
+  display: inline-block;
+  margin-right: 5%;
+  font-size: 1.75em;
+  margin-left: 4%;
+  margin-top: 7%;
+  color: teal;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 button {
+  width: 50%;
+  margin-left: 24.5%;
+}
+
+@media screen and (max-width: 1366px) {
+  #church_logo {
+    width: 12%;
+    margin-left: 0%;
+  }
+
+  #name {
+    margin-top: 2%;
+  }
+
+  h2 {
+    margin-top: 5%;
+    font-size: 3em;
+  }
+
+  .logo {
+    width: 37%;
+    margin-top: 35%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+
+    #name {
+        font-size: 6em;
+        margin-top: 5%;
+    }
+
+    #church_logo {
+        width: 20%;
+    }
+
+  #p_photo {
+    width: 25%;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  #logo_box {
+      margin-left: 6%;
+  }
+
+  .logo {
+      width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #church {
+    margin-top: 15%;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .logo {
+    width: 65%;
+    margin-left: 0;
+    margin-top: 30%;
+  }
+
+  #name {
+    font-size: 4.5em;
+    margin-left: 0;
+    margin-top: 6%;
+  }
+
+  #church_logo {
+    width: 20%;
+  }
+
+  #logo_box {
+    margin-left: 6.5%;
+    
+  }
+
+  #p_photo {
+    width: 33%;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  form {
+      width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 415px) {
+  #name {
+    font-size: 2em;
+    margin-top: 7%;
+  }
+
+  #church {
+    margin-top: 27%;
+  }
+
+  #logo_box {
+    margin-top: 2%;
+    margin-right: 4%;
+  }
+
+  .logo {
+    width: 75%;
+  }
+
+  #church_logo {
+    width: 27%;
+  }
+
+  #pastors {
+    display: block;
+    text-align: center;
+  }
+
+  #p_photo {
+    margin-left: 0;
     width: 50%;
-    margin-left: 24.5%;
+  }
+
+  p {
+    display: block;
+    font-size: 1em;
+  }
+
+  @media screen and (max-width: 412px) {
+      #name {
+          font-size: 2.6em;
+          margin-top: 9%;
+      }
+
+      
+      
+  }
+
+  @media screen and (max-width: 378px) {
+    #name {
+      font-size: 2.5em;
+    }
+  }
+
+  #church {
+    margin-top: 23%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  #name {
+    font-size: 2.3em;
+  }
+
+  #logo_box {
+    margin-top: 0%;
+  }
+
+  #logo {
+      margin-top: 0%;
+  }
+
+  #church_logo {
+    width: 25%;
+  }
 }
