@@ -220,6 +220,10 @@ button {
     width: 33%;
   }
 
+  #schedule {
+      width: 98%;
+  }
+
   p {
     font-size: 1em;
   }
