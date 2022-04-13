@@ -1,0 +1,322 @@
+body {
+  background-image: url("web2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 100%;
+  color: black;
+  margin: 0;
+  color: white;
+  margin-bottom: 10%;
+  font-family: 'Heebo', sans-serif;
+}
+
+#church_logo {
+  width: 150px;
+  height: 150px;
+  padding-top: 5%;
+}
+
+#landing {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#nav_container {
+  backdrop-filter: blur(8px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid black;
+}
+
+.landing_box {
+  width: 20%;
+  text-align: center;
+}
+
+
+
+.name {
+  font-size: 4rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.hamburger {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 55px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  margin-top: 1%;
+  padding-bottom: 2%;
+  margin-right: 2.5%;
+}
+
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  margin: 6px 0px;
+  transition: 0.4s;
+  border-radius: 0.2em;
+}
+
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-8px, -6px);
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: 15%;
+  margin-bottom: none;
+  z-index: 98;
+  padding-top: 30%;
+  text-align: center;
+  transition: 0.4s;
+  background-color: white;
+  
+  
+}
+
+.mobile-nav.is-active {
+  left: 0;
+}
+
+.mobile-nav a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 200%;
+}
+
+.mobile-nav a:hover {
+  background-color: purple;
+  transition: 0.4s;
+}
+
+#second_nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 13%;
+  }
+  
+  #second_nav a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  #h3_div {
+      padding-top: 5%;
+      font-size: 4rem;
+      text-align: center;
+      display: flex;
+      text-align: center;
+      justify-content: space-evenly;
+      padding-top: 5%;
+    }
+
+
+
+.p_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.p_container img {
+  width: 25%;
+  height: 25%;
+  border-radius: 10%;
+  margin-top: 5%;
+}
+
+h4 {
+    margin-bottom: 0;
+    margin-left: 7%;
+    font-size: 2rem;
+    border-bottom: 1px white solid;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  body {
+    background-position: center;
+  }
+
+  #landing {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    
+  }
+
+  .landing_box {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 3rem;
+    margin-top: 40%;
+  }
+
+  #church_logo {
+    width: 160px;
+    height: 160px;
+    margin-right: 0;
+  }
+
+  #second_nav {
+    padding-top: 10%;
+  }
+
+  #second-nav a {
+    font-size: 1rem;
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+
+ }
+
+@media only screen and (max-width: 415px) {
+
+  body {
+    text-align: center;
+    background-position: center;
+  }
+
+
+ 
+
+  #landing {
+    justify-content: flex-start;
+    margin-bottom: 1%;
+    padding-top: 3%;
+  }
+
+  
+  .name_box {
+    display: none;
+  }
+  
+
+  .logo {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  #church_logo {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100px;
+    height: 100px;
+    display: inline-block;;
+    
+  }
+
+  
+
+  .hamburger {
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 130%;
+    padding-top: 50%;
+  }
+
+  #second_nav {
+    display: none;
+  }
+
+  
+  .p_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .p_container img {
+    width: 90%;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    margin-top: 30%;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+  
+  
+
+ 
+  img {
+    width: 90%;
+  }
+  
+  #assembly_greetings {
+    text-align: center;
+  }
+
+  .mobile-nav {
+    margin-top: 31%;
+  }
+
+}
+
+@media only screen and (max-width: 290px) {
+
+  body {
+    background-position: center;
+  }
+
+  .mobile-nav {
+    margin-top: 40%;
+  }
+
+  .p_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .p_container img {
+    width: 90%;
+  }
+
+  #h3_div {
+    padding-top: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 740px) {
+  #button_box {
+    display: none;
+  }
+}

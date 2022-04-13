@@ -1,0 +1,457 @@
+body {
+  background-image: url("dove.jpg");
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+
+#church_logo {
+  width: 200px;
+  height: 200px;
+  padding-top: 5%;
+  
+}
+
+#landing {
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+
+.landing_box {
+  width: 20%;
+  text-align: center;
+}
+
+.name {
+  font-size: 5rem;
+  
+}
+
+#address {
+  text-align: center;
+}
+
+#address p {
+  
+  font-size: 2rem;
+  border-bottom: white solid 2px;
+  display: inline-block;
+}
+
+#address p a {
+  text-decoration: none;
+  color: white;
+}
+
+#claim {
+  text-align: center;
+  display: block;
+  font-size: 4rem;
+  
+  margin-top: 0;
+  padding-top: 35%;
+}
+
+#catagory_container {
+  display: flex inline-block;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+.catagory {
+  border: black 1px solid;
+  display: inline-block;
+  width: 35%;
+  border-radius: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.catagory p {
+  padding-top: 20%;
+  padding-bottom:20%;
+  font-size: 2rem;
+  color: white;
+}
+
+#who {
+  background-image: url(church.png);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+#misiones {
+  background-image: url(help.jpg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+#media {
+  background-image: url(camera.jpg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+#questions {
+  background-image: url(question.jpg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+footer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+footer a img {
+  width: 5%;
+  margin: 2%;
+}
+
+ 
+
+
+
+
+@media only screen and (max-width: 850px) {
+  #landing {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+   
+  }
+
+  .name {
+    font-size: 4.5rem;
+  }
+
+  
+
+  #church_logo {
+    width: 190px;
+    height: 190px;
+    margin-right: 0;
+  }
+
+
+
+  #claim {
+    margin-top: 65%;
+  }
+
+  .catagory {
+    width: 40%;
+  }
+
+  footer a img {
+    width: 10%;
+  }
+}
+
+
+
+@media only screen and (max-width: 770px) {
+
+  #landing {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    
+  }
+
+  .landing_box {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 4rem;
+  }
+
+ 
+  
+
+  #church_logo {
+    width: 160px;
+    height: 160px;
+    margin-right: 0;
+  }
+
+ 
+
+  #claim {
+    margin-top: 55%;
+  }
+
+  .catagory {
+    width: 40%;
+  }
+
+  footer a img {
+    width: 10%;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+  body{
+    background-position-x: 40%;
+  }
+  .name {
+    display: none;
+  }
+
+  #landing {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  #church_logo {
+    width: 175px;
+    height: 175px;
+    margin-left: 110.865px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #claim {
+    font-size: 3rem;
+    margin-top: 110%;
+  }
+
+  #catagory_container {
+    display: block;
+  }
+
+  .catagory {
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+  a {
+    display: block;
+    margin-left: 664.51
+  }
+
+  footer a img {
+    width: 15%;
+  }
+  
+
+  footer a  {
+    display: inline;
+    margin: 5%;
+  }
+}
+
+
+@media only screen and (max-width:415px) {
+  body{
+    background-position-x: 40%;
+  }
+  .name {
+    display: none;
+  }
+
+  #landing {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  #church_logo {
+    width: 190px;
+    height: 190px;
+    margin-left: 105.795px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #claim {
+    font-size: 3rem;
+    margin-top: 100%;
+  }
+
+  #address p {
+    font-size: 1.2rem;
+  }
+
+  #catagory_container {
+    display: block;
+  }
+
+  .catagory {
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+  a {
+    display: block;
+    margin-left: 664.51
+  }
+
+  footer a img {
+    width: 15%;
+  }
+  
+
+  footer a  {
+    display: inline;
+    margin: 5%;
+  }
+}
+
+
+@media only screen and (max-width:400px) {
+
+  body{
+    background-position-x: 40%;
+  }
+  .name {
+    display: none;
+  }
+
+  #landing {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  #church_logo {
+    width: 175px;
+    height: 175px;
+    margin-left: 91.795px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #claim {
+    font-size: 3rem;
+    margin-top: 60%;
+  }
+
+  #catagory_container {
+    display: block;
+  }
+
+  .catagory {
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+  a {
+    display: block;
+    margin-left: 664.51
+  }
+
+  footer a img {
+    width: 15%;
+  }
+  
+
+  footer a  {
+    display: inline;
+    margin: 5%;
+  }
+
+}
+
+@media only screen and (max-width: 395px) {
+  #church_logo {
+    width: 175px;
+    height: 175px;
+    margin-left: 100.795px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #claim {
+    font-size: 3rem;
+    margin-top: 105%;
+  }
+}
+
+
+@media only screen and (max-width: 380px) {
+  body{
+    background-position-x: 40%;
+  }
+  .name {
+    display: none;
+  }
+
+  #landing {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  #church_logo {
+    width: 175px;
+    height: 175px;
+    margin-left: 95.795px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #claim {
+    font-size: 3rem;
+    margin-top: 65%;
+  }
+
+  #catagory_container {
+    display: block;
+  }
+
+  .catagory {
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+  a {
+    display: block;
+    margin-left: 664.51
+  }
+
+  footer a img {
+    width: 15%;
+  }
+  
+
+  footer a  {
+    display: inline;
+    margin: 5%;
+  }
+}
+
+@media only screen and (max-width:365px) {
+  body{
+    background-position-x: 40%;
+  }
+  #church_logo {
+    width: 175px;
+    height: 175px;
+    margin-left: 85.795px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #claim {
+    font-size: 3rem;
+    margin-top: 85%;
+  }
+}
