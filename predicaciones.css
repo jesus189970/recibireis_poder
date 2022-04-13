@@ -1,5 +1,5 @@
 body {
-    background-image: url("web2.jpg");
+    background-image: url("web2.png");
     
     background-size: cover;
     background-attachment: fixed;
@@ -132,6 +132,11 @@ body {
     text-decoration: none;
     color:white;
     font-family: 'Bebas Neue', cursive;
+  }
+
+  p {
+    text-align: center;
+    font-size: 2rem;
   }
   
   #h3_div {

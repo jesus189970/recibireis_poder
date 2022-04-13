@@ -1,5 +1,5 @@
 body {
-  background-image: url("dove.jpg");
+  background-image: url("dove.png");
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -91,19 +91,19 @@ body {
 }
 
 #misiones {
-  background-image: url(help.jpg);
+  background-image: url(help.png);
   background-repeat: no-repeat;
   background-size: cover
 }
 
 #media {
-  background-image: url(camera.jpg);
+  background-image: url(camera.png);
   background-repeat: no-repeat;
   background-size: cover
 }
 
 #questions {
-  background-image: url(question.jpg);
+  background-image: url(question.png);
   background-repeat: no-repeat;
   background-size: cover
 }

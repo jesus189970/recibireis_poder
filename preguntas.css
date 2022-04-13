@@ -1,5 +1,5 @@
 body {
-    background-image: url("question2.jpg");
+    background-image: url("question2.png");
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -141,6 +141,8 @@ body {
       padding-top: 0;
       margin-top:0;
   }
+
+  
 
   #info_container {
       display: flex;

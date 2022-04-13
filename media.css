@@ -1,5 +1,5 @@
 body {
-    background-image: url("web2.jpg");
+    background-image: url("web2.png");
     
     background-size: cover;
     background-attachment: fixed;
@@ -160,13 +160,13 @@ body {
   }
 
   #preachings {
-    background-image: url(predicaciones.jpg);
+    background-image: url(predicaciones.png);
     background-repeat: no-repeat;
     background-size: cover
   }
   
   #photos {
-    background-image: url(fotos.jpg);
+    background-image: url(fotos.png);
     background-repeat: no-repeat;
     background-size: cover
   }
