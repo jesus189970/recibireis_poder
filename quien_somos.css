@@ -180,6 +180,12 @@ body {
 
   @media only screen and (max-width: 415px) {
 
+
+    body {
+      background-image: none;
+      background-color: black;
+    }
+
     #landing {
       justify-content: flex-start;
       margin-bottom: 20%;
