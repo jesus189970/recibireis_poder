@@ -259,7 +259,7 @@ footer a img {
 
 @media only screen and (max-width:415px) {
   body{
-    
+    background-position: center;
   }
   .name {
     display: none;
