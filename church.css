@@ -209,7 +209,7 @@ footer a img {
 @media only screen and (max-width: 500px) {
 
   body {
-    background-image: url("dove_mobile.png");
+    background-image: url("dove_mobile.PNG");
     background-position: center;
     background-size: cover;
   }
