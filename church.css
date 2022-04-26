@@ -1,16 +1,11 @@
 body {
-  
-  color: white;
+  background-image: url("dove.png");
+  color: yellow;
   font-family: 'Bebas Neue', cursive;
   
 }
 
-#wrapper {
-  background-image: url("dove.png");
-  
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 
 #church_logo {
   width: 200px;
@@ -128,9 +123,7 @@ footer a img {
 
 @media only screen and (max-width: 850px) {
 
-  body {
-    background-position-x: 40%;
-  }
+  
 
   #landing {
     display: flex;
@@ -215,9 +208,7 @@ footer a img {
 
 @media only screen and (max-width: 500px) {
 
-  #wrapper {
-    background-position-x: 40%;
-  }
+  
   
   
   .name {
@@ -326,9 +317,7 @@ footer a img {
 
 @media only screen and (max-width:400px) {
 
-  #wrapper {
-    background-position-x: 70%;
-  }
+  
   .name {
     display: none;
   }
@@ -395,9 +384,7 @@ footer a img {
 
 
 @media only screen and (max-width: 380px) {
-  body{
-    background-position-x: 40%;
-  }
+  
   .name {
     display: none;
   }
@@ -447,9 +434,7 @@ footer a img {
 }
 
 @media only screen and (max-width:365px) {
-  body{
-    background-position-x: 40%;
-  }
+  
   #church_logo {
     width: 175px;
     height: 175px;
