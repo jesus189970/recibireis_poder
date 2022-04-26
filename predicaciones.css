@@ -231,11 +231,10 @@ body {
   
       
   
-      .hamburger {
+      #button_box {
         display: inline-block;
-        margin-top: 0%;
-        margin-left: 130%;
-        padding-top: 50%;
+        margin-top: 7%;
+        margin-left: 20%;
       }
     
       #second_nav {
