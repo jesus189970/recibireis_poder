@@ -3,7 +3,6 @@ body {
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
-  
   height: 100%;
   color: white;
   font-family: 'Bebas Neue', cursive;
@@ -125,6 +124,11 @@ footer a img {
 
 
 @media only screen and (max-width: 850px) {
+
+  body {
+    background-position-x: 40%;
+  }
+
   #landing {
     display: flex;
     justify-content: space-evenly;
