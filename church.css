@@ -1,5 +1,9 @@
 body {
   background-image: url("dove.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   color: yellow;
   font-family: 'Bebas Neue', cursive;
   
