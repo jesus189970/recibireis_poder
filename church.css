@@ -7,8 +7,9 @@ body {
 
 #wrapper {
   background-image: url("dove.png");
-  background-size: cover;
   
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #church_logo {
