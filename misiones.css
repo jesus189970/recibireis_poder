@@ -336,11 +336,9 @@ body {
   
     
   
-    .hamburger {
+    #button_box {
       display: inline-block;
-      margin-top: 0%;
-      margin-left: ;
-      padding-top: 45%;
+      margin-top: 8%;
     }
   
     h3 {
