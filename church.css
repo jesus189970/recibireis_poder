@@ -3,10 +3,9 @@ body {
   background-image: url('logo.png');
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  color: grey;
+  color: white;
   font-family: 'Bebas Neue', cursive;
-  background-color: black;
+  
 }
 
 
@@ -212,7 +211,12 @@ footer a img {
 
 @media only screen and (max-width: 500px) {
 
-  
+  body {
+    background-image: url("dove.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
   
   
   .name {
