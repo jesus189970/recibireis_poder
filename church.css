@@ -212,7 +212,7 @@ footer a img {
 @media only screen and (max-width: 500px) {
 
   body {
-    background: url("dove.png") fixed;
+    background: url("dove.png") repeat fixed 100%;
     
     background-position: center;
     background-size: cover;
