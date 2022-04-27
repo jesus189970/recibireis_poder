@@ -212,8 +212,8 @@ footer a img {
 @media only screen and (max-width: 500px) {
 
   body {
-    background-image: url("dove.png");
-    background-attachment: fixed;
+    background: url("dove.png") fixed;
+    
     background-position: center;
     background-size: cover;
   }
