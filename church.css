@@ -1,9 +1,7 @@
 body {
   
-  background-image: url('logo.png');
-  background-position: center;
-  background-size: cover;
-  color: white;
+  
+  color: #648f9e;
   font-family: 'Bebas Neue', cursive;
   
 }
@@ -112,6 +110,10 @@ footer {
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
+  width: 100%;
+  background-color: lightgrey;
+  margin-left: none;
+  border-radius: 10px;
 }
 
 footer a img {
@@ -212,10 +214,11 @@ footer a img {
 @media only screen and (max-width: 500px) {
 
   body {
-    background: url("dove.png") repeat fixed 100%;
-    
+    background-image: url('dove1.png');
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
   }
   
   
