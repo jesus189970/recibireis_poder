@@ -1,22 +1,25 @@
 body {
   
   
-    background-color: #000; 
-    background-image: url('dove.png');
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;     
+   
  
   color: #648f9e;
   font-family: 'Bebas Neue', cursive;
   
 }
 
-
+#wrapper {
+  position: relative;
+  background-color: #000; 
+  background-image: url('dove.png');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;       
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;     
+}
 
 #church_logo {
   width: 200px;
