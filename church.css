@@ -123,11 +123,7 @@ footer a img {
 }
 
 
-@supports (-webkit-touch-callout: inherit) {
-  body {
-  background-attachment: scroll;
-  }
-}
+
 
 
 
@@ -247,7 +243,9 @@ footer a img {
 
 @media only screen and (max-width: 415px) {
 
-  
+  body {
+    background-attachment: scroll;
+  }
 
   .name {
     display: none;
