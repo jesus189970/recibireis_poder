@@ -1,39 +1,23 @@
 body {
-  
-  
-   
- 
-  color: #648f9e;
-  font-family: 'Bebas Neue', cursive;
-  
-}
-
-#wrapper {
-  
+  background-image: url("dove.png");
   height: 100%;
-  width: 100%;
-  position: relative;
-  color: #fff;
-  background: url('dove.png') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  }
-
+  background-attachment: fixed;
+  padding: none;
+  margin: none;
+  color: #648f9e;
+  font-family: "Bebas Neue", cursive;
 }
 
 #church_logo {
   width: 200px;
   height: 200px;
   padding-top: 5%;
-  
 }
 
 #landing {
   display: flex;
   justify-content: space-evenly;
- 
 }
 
 .landing_box {
@@ -43,7 +27,6 @@ body {
 
 .name {
   font-size: 5rem;
-  
 }
 
 #address {
@@ -51,7 +34,6 @@ body {
 }
 
 #address p {
-  
   font-size: 2rem;
   border-bottom: white solid 2px;
   display: inline-block;
@@ -62,13 +44,18 @@ body {
   color: white;
 }
 
+img {
+  width: 100%;
+  padding-right: none;
+  margin-right: none;
+}
+
 #claim {
   text-align: center;
   display: block;
   font-size: 4rem;
-  
-  margin-top: 0;
-  padding-top: 35%;
+
+  margin-top: 35%;
 }
 
 #catagory_container {
@@ -77,7 +64,6 @@ body {
   text-align: center;
   width: 100%;
   justify-content: space-between;
-  
 }
 .catagory {
   border: black 1px solid;
@@ -92,7 +78,7 @@ body {
 
 .catagory p {
   padding-top: 20%;
-  padding-bottom:20%;
+  padding-bottom: 20%;
   font-size: 2rem;
   color: white;
 }
@@ -100,25 +86,25 @@ body {
 #who {
   background-image: url(church.png);
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 #misiones {
   background-image: url(help.png);
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 #media {
   background-image: url(camera.png);
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 #questions {
   background-image: url(question.png);
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 footer {
@@ -136,35 +122,24 @@ footer a img {
   margin: 2%;
 }
 
- 
-
-
-
-
 @media only screen and (max-width: 850px) {
-
-  
+ 
 
   #landing {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-   
   }
 
   .name {
     font-size: 4.5rem;
   }
 
-  
-
   #church_logo {
     width: 190px;
     height: 190px;
     margin-right: 0;
   }
-
-
 
   #claim {
     margin-top: 65%;
@@ -179,15 +154,11 @@ footer a img {
   }
 }
 
-
-
 @media only screen and (max-width: 770px) {
-
   #landing {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    
   }
 
   .landing_box {
@@ -198,16 +169,11 @@ footer a img {
     font-size: 4rem;
   }
 
- 
-  
-
   #church_logo {
     width: 160px;
     height: 160px;
     margin-right: 0;
   }
-
- 
 
   #claim {
     margin-top: 55%;
@@ -220,23 +186,9 @@ footer a img {
   footer a img {
     width: 10%;
   }
-
 }
 
-
-
-
 @media only screen and (max-width: 500px) {
-
-  body {
-    background-image: url('dove1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-  }
-  
-  
   .name {
     display: none;
   }
@@ -271,23 +223,35 @@ footer a img {
 
   a {
     display: block;
-    margin-left: 664.51
+    margin-left: 664.51;
   }
 
   footer a img {
     width: 15%;
   }
-  
 
-  footer a  {
+  footer a {
     display: inline;
     margin: 5%;
   }
 }
 
+@media only screen and (max-width: 415px) {
 
-@media only screen and (max-width:415px) {
-  
+  body:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-position-x: 30%;
+    background-image: inherit;
+    background-size: inherit;
+    background-attachment: inherit;
+    background-repeat: inherit;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+  }
+
   .name {
     display: none;
   }
@@ -326,24 +290,20 @@ footer a img {
 
   a {
     display: block;
-    margin-left: 664.51
+    margin-left: 664.51;
   }
 
   footer a img {
     width: 15%;
   }
-  
 
-  footer a  {
+  footer a {
     display: inline;
     margin: 5%;
   }
 }
 
-
-@media only screen and (max-width:400px) {
-
-  
+@media only screen and (max-width: 400px) {
   .name {
     display: none;
   }
@@ -378,19 +338,17 @@ footer a img {
 
   a {
     display: block;
-    margin-left: 664.51
+    margin-left: 664.51;
   }
 
   footer a img {
     width: 15%;
   }
-  
 
-  footer a  {
+  footer a {
     display: inline;
     margin: 5%;
   }
-
 }
 
 @media only screen and (max-width: 395px) {
@@ -408,9 +366,7 @@ footer a img {
   }
 }
 
-
 @media only screen and (max-width: 380px) {
-  
   .name {
     display: none;
   }
@@ -445,22 +401,20 @@ footer a img {
 
   a {
     display: block;
-    margin-left: 664.51
+    margin-left: 664.51;
   }
 
   footer a img {
     width: 15%;
   }
-  
 
-  footer a  {
+  footer a {
     display: inline;
     margin: 5%;
   }
 }
 
-@media only screen and (max-width:365px) {
-  
+@media only screen and (max-width: 365px) {
   #church_logo {
     width: 175px;
     height: 175px;
