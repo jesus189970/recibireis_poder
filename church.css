@@ -420,7 +420,7 @@ footer a img {
 }
 
 @supports (-webkit-touch-callout: inherit) {
-  .paral {
+  body {
   background-attachment: scroll;
   }
 }
