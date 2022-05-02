@@ -122,11 +122,7 @@ footer a img {
   margin: 2%;
 }
 
-@supports (-webkit-touch-callout: inherit) {
-  .paral {
-  background-attachment: scroll;
-  }
-}
+
 
 @media only screen and (max-width: 850px) {
  
@@ -420,5 +416,11 @@ footer a img {
   #claim {
     font-size: 3rem;
     margin-top: 85%;
+  }
+}
+
+@supports (-webkit-touch-callout: inherit) {
+  .paral {
+  background-attachment: scroll;
   }
 }
