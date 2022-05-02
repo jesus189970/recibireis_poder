@@ -7,6 +7,10 @@ body {
     color: white;
     font-family: 'Bebas Neue', cursive;
   }
+
+  #wrapper {
+    background-image: url("dove.png");
+  }
   
   #church_logo {
     width: 200px;
@@ -147,9 +151,21 @@ body {
 
  @media only screen and (max-width: 830px) {
 
-  body {
-    background-position-x: 40%;
-  }
+  body:before {
+    content: ""; 
+    background-image: inherit;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 100vh; 
+    width: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover; 
+    z-index: -1;
+    background-position-x: 35%;
+}
 
   #landing {
     display: flex;

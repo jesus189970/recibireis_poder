@@ -105,7 +105,7 @@ body {
   display: block;
   color: black;
   text-decoration: none;
-  font-family: "Rubik Beastly", cursive;
+  font-family: 'Bebas Neue', cursive;
   margin-top: 10%;
   margin-bottom: 10%;
   font-size: 200%;
@@ -255,9 +255,21 @@ body {
 
   @media only screen and (max-width: 1200px) {
 
-    body {
-      background-position-x: 40%;
-    }
+    body:before {
+      content: ""; 
+      background-image: inherit;
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      height: 100vh; 
+      width: 100%; 
+      -webkit-background-size: cover; 
+      -moz-background-size: cover; 
+      -o-background-size: cover;
+      background-size: cover; 
+      z-index: -1;
+      background-position-x: 35%;
+  }
   
     #landing {
       display: flex;
