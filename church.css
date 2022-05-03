@@ -112,7 +112,6 @@ footer {
   margin-bottom: 5%;
   text-align: center;
   width: 100%;
-  background-color: lightgrey;
   margin-left: none;
   border-radius: 10px;
 }
@@ -123,7 +122,23 @@ footer a img {
 }
 
 
-
+@media only screen and (max-width: 1200px ) {
+  body:before {
+    content: ""; 
+    background-image: inherit;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 100vh; 
+    width: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover; 
+    z-index: -1;
+    background-position-x: 35%;
+}
+}
 
 
 
@@ -206,6 +221,19 @@ footer a img {
   footer a img {
     width: 10%;
   }
+}
+
+@media only screen and (max-width: 700px) {
+  .name {
+    font-size: 3.5rem;
+    margin-top: 33%;
+  }
+
+  #church_logo {
+    width: 155px;
+    height: 155px;
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -424,15 +452,31 @@ footer a img {
 
 @media only screen and (max-width: 365px) {
   #church_logo {
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
+    margin-left: 58.795px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #claim {
+    font-size: 2rem;
+    margin-top: 85%;
+  }
+}
+
+
+@media only screen and (max-width: 325px) {
+  #church_logo {
+    width: 140px;
+    height: 140px;
     margin-left: 85.795px;
     display: inline-block;
     text-align: center;
   }
 
   #claim {
-    font-size: 3rem;
-    margin-top: 85%;
+    font-size: 2rem;
+    margin-top: 70%;
   }
 }
