@@ -7,7 +7,7 @@ body {
   height: 100%;
   color: black;
   padding-bottom: 5%;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 #church_logo {
@@ -89,8 +89,6 @@ body {
   text-align: center;
   transition: 0.4s;
   background-color: white;
-  
-  
 }
 
 .mobile-nav.is-active {
@@ -101,7 +99,7 @@ body {
   display: block;
   color: black;
   text-decoration: none;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   margin-top: 10%;
   margin-bottom: 10%;
   font-size: 200%;
@@ -114,34 +112,30 @@ body {
 
 .name {
   font-size: 4rem;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
-
-
-
 
 #second_nav {
   display: flex;
   justify-content: space-evenly;
   margin-top: 13%;
-  
 }
 
 #second_nav a {
   text-decoration: none;
   color: black;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 #h3_div {
-    padding-top: 5%;
-    font-size: 3rem;
-    text-align: center;
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    padding-top: 7%;
-  }
+  padding-top: 5%;
+  font-size: 3rem;
+  text-align: center;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-top: 7%;
+}
 
 #pastors_container {
   display: flex;
@@ -152,8 +146,8 @@ body {
 }
 
 h3 {
-    border-bottom: black 1px solid;
-    font-size: 5rem;
+  border-bottom: black 1px solid;
+  font-size: 5rem;
 }
 
 #pastors_container div img {
@@ -161,57 +155,90 @@ h3 {
   border-radius: 50%;
 }
 
-
-
 #greetings p {
-    font-size: 1.3rem;
-    margin-top: 13%;
+  font-size: 1.3rem;
+  margin-top: 13%;
 }
-
 
 #assembly_photo {
-    text-align: center;;
-    border-bottom: solid black 1px;
+  text-align: center;
+  border-bottom: solid black 1px;
 }
 
-
-
 img {
-    width: 50%;
-    border-radius: 20%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  width: 50%;
+  border-radius: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #assembly_greetings p {
-    font-size: 1.2rem;
-    margin-right: 5%;
-    margin-left: 5%;
+  font-size: 1.2rem;
+  margin-right: 5%;
+  margin-left: 5%;
 }
+
+.carousel-container {
+  width: 50%;
+  margin: auto;
+  border: 4px solid white;
+  overflow: hidden;
+  border-radius: 2%;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.carousel-slide img {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  border-radius: 0%;
+}
+
+#button_container {
+  text-align: center;
+  margin-top: 3%;
+}
+
+#button_container button {
+  width: 8%;
+  padding: 1%;
+  margin: 2%;
+  border: white 2px solid;
+  border-radius: 20%;
+  background-color: skyblue;
+}
+
+
 
 @media only screen and (max-width: 1200px) {
-
   body:before {
-    content: ""; 
+    content: "";
     background-image: inherit;
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    height: 100vh; 
-    width: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;
     z-index: -1;
     background-position-x: 35%;
-}
+  }
 
   #landing {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    
   }
 
   .landing_box {
@@ -231,48 +258,38 @@ img {
 
   #second_nav {
     padding-top: 10%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
   }
 
   h3 {
     margin-top: 0;
     font-size: 3rem;
   }
-  
 
   #pastors_container {
     display: block;
     text-align: center;
   }
 
- 
   #pastors_container div img {
     width: 50%;
     padding-bottom: 0;
-    
   }
-  
-
-
- }
+}
 
 @media only screen and (max-width: 415px) {
-
   #landing {
     justify-content: center;
     gap: 20%;
-    
   }
 
   #second_nav {
     display: none;
   }
 
-  
   .name_box {
     display: none;
   }
-  
 
   .logo {
     margin-left: 0;
@@ -285,34 +302,28 @@ img {
     padding-left: 0;
     width: 100px;
     height: 100px;
-    display: inline-block;;
-    
+    display: inline-block;
   }
-
-  
 
   #button_box {
     display: inline-block;
     margin-top: 8%;
-    
-    
   }
 
   h3 {
     font-size: 2.5rem;
     margin-top: 25%;
   }
-  
+
   #pastors_container {
     display: block;
     text-align: center;
   }
 
- 
   img {
     width: 90%;
   }
-  
+
   #assembly_greetings {
     text-align: center;
   }
@@ -320,7 +331,6 @@ img {
   .mobile-nav {
     margin-top: 27.5%;
   }
-
 }
 
 @media only screen and (max-width: 290px) {
