@@ -110,21 +110,43 @@
         </div>
 
     </div>
-    <div class="carousel-container">
-        <div class="carousel-slide">
-            
-            <img src="damas.png" alt="">
-            <img src="caballeros.png" alt="">
-            <img src="youth.png" alt="">
-            
+    <div id="slider_container">
+        <div class="slider">
+            <div class="images">
+                <input type="radio" name="slide" id="img1" checked>
+                <input type="radio" name="slide" id="img2">
+                <input type="radio" name="slide" id="img3">
+
+                <img src="damas.png" class="m1" alt="img1">
+                <img src="youth.png" class="m2" alt="img2">
+                <img src="caballeros.png" class="m3" alt="img3">
+            </div>
+            <div class="dots">
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+            </div>
         </div>
     </div>
-    <div id="button_container" >
-        <button id="prevBtn" class="fa-solid fa-arrow-left fa-xl"></button>
-        <button id="nextBtn" class="fa-solid fa-arrow-right fa-xl"></button>
+    <div id="assembly_greetings">
+        <p>
+            Le invitamos para que se una a nuestros servicios celebrando la presencia de Dios. Cada Sociedad tienen sus
+            servicios, retiros, vigilias y campañas.
+        </p>
+
+        <p>
+            <span>Nuestros servicios</span> le dan la oportunidad a los miembros de la Sociedad de participar en
+            canticos, testimonios y predicas para el crecimeinto de sus vidas y edificacion de la Iglesia.
+        </p>
+        <p>
+            <span>Nuestros Retiros</span> se componen de oracion, estudios, dinamicas y predicacion de la palabra.
+            Concluyendo al final con un compartir todos juntos.
+        </p>
+        <p><span>Nuestras Vigilias </span>se componen mayormente de oracion unidos por las peticiones de cada uno. </p>
+        <p><span>Nuestras Campañas</span> son dias separados de 2-3 dias para celebrar el crecimiento de la sociedad pero mas
+            importante el traer mas almas al Señor. Se prepara un programa especial y se invita un predicador para que
+            predique la palabra.</p>
     </div>
-
-
     <script src="church.js"></script>
     <script src="index.js"></script>
 </body>
