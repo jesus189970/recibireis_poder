@@ -28,6 +28,12 @@ body {
   left: 0;
   right: 0;
   border-bottom: 2px solid black;
+  -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+    opacity: 0.4;
 }
 
 .landing_box {
