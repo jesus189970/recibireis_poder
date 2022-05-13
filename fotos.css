@@ -9,6 +9,7 @@ body {
   color: white;
   margin-bottom: 10%;
   font-family: 'Heebo', sans-serif;
+  text-align: center;
 }
 
 #church_logo {
@@ -151,7 +152,7 @@ background: linear-gradient(90deg, rgba(4,18,63,1) 16%, rgba(4,37,92,1) 49%);
 
 h4 {
     margin-bottom: 0;
-    margin-left: 7%;
+    
     font-size: 2rem;
     border-bottom: 1px white solid;
     display: inline-block;
