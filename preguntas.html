@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,15 @@
     <link rel="stylesheet" href="preguntas.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div id="nav_container">
         <div id="landing">
             <div class="landing_box">
-                <h1 class="name name_box" >Recibireis</h1>
+                <h1 class="name name_box">Recibireis</h1>
             </div>
             <div class="landing_box logo"><a href="index.html"><img src="logo.png" alt="" id="church_logo"></a></div>
             <div class="landing_box name_box">
@@ -31,35 +33,48 @@
         </div>
     </div>
     <nav class="mobile-nav">
-		<a href="index.html">Home</a>
-		<a href="quien_somos.html">Quien Somos?</a>
+        <a href="index.html">Home</a>
+        <a href="quien_somos.html">Quien Somos?</a>
+        <a href="misiones.html">Misiones y Proyectos</a>
         <a href="media.html">Media</a>
         <a href="preguntas.html">Preguntas</a>
-	</nav>
-    <div id="second_nav" >
-        <a href="quien_somos.html"><h2>Quien Somos?</h2></a> 
-        <a href="misiones.html"><h2>Misiones y Proyectos</h2></a> 
-        <a href="media.html"><h2>Media</h2></a> 
-        <a href="preguntas.html"><h2>Preguntas y Informacion</h2></a> 
+    </nav>
+    <div id="second_nav">
+        <a href="quien_somos.html">
+            <h2>Quien Somos?</h2>
+        </a>
+        <a href="misiones.html">
+            <h2>Misiones y Proyectos</h2>
+        </a>
+        <a href="media.html">
+            <h2>Media</h2>
+        </a>
+        <a href="preguntas.html">
+            <h2>Preguntas y Informacion</h2>
+        </a>
     </div>
     <div id="h3_div">
         <h3>Preguntas y Informacion</h3>
     </div>
-    <div id="info_container" >
+    <div id="info_container">
         <img src="april.png" alt="calandario">
         <img src="service_hours.jpeg" alt="servicios">
     </div>
-    <div id="p_container" ><p>Envianos un email con caulquier pregunta o si deseas la oracion.</p> <p>Tambien ofrecemos cultos en los hogares</p> </div>
-    
-<div id="form_container">
+    <div id="p_container">
+        <p>Envianos un email con caulquier pregunta o si deseas la oracion.</p>
+        <p>Tambien ofrecemos cultos en los hogares</p>
+    </div>
+
+    <div id="form_container">
         <form action="POST" data-netlify="true">
             <input type="text" name="name" placeholder="Nombre" rows="10">
             <input type="text" name="email" placeholder="email">
             <textarea rows="10" name="description" id="description" placeholder="Que necesitas..?"></textarea>
             <button id="submit">Submit</button>
         </form>
-        <script src="church.js" ></script>
+        <script src="church.js"></script>
     </div>
 
 </body>
+
 </html>
