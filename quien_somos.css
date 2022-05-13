@@ -1,171 +1,167 @@
 body {
-    background-image: url("dove.png");
-    height: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-  }
+  background-image: url("dove.png");
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+}
 
-  #wrapper {
-    background-image: url("dove.png");
-  }
-  
-  #church_logo {
-    width: 200px;
-    height: 200px;
-    padding-top: 5%;
-  }
-  
-  #landing {
-    display: flex;
-    justify-content: space-evenly;
-   
-  }
-  
-  .landing_box {
-    width: 20%;
-    text-align: center;
-  }
-  
-  .name {
-    font-size: 5rem;
-    font-family: 'Bebas Neue', cursive;
-  }
-  .hamburger {
-    display: inline-block;
-    position: relative;
-    width: 50px;
-    height: 55px;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
-    margin-top: 1%;
-    padding-bottom: 2%;
-    margin-right: 2.5%;
-  }
-  
-  .hamburger .bar,
-  .hamburger:after,
-  .hamburger:before {
+#wrapper {
+  background-image: url("dove.png");
+}
+
+#church_logo {
+  width: 200px;
+  height: 200px;
+  padding-top: 5%;
+}
+
+#landing {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landing_box {
+  width: 20%;
+  text-align: center;
+}
+
+.name {
+  font-size: 5rem;
+  font-family: "Bebas Neue", cursive;
+}
+.hamburger {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 55px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  margin-top: 1%;
+  padding-bottom: 2%;
+  margin-right: 2.5%;
+}
+
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  margin: 6px 0px;
+  transition: 0.4s;
+  border-radius: 0.2em;
+}
+
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-8px, -6px);
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: 15%;
+  margin-bottom: none;
+  z-index: 98;
+  padding-top: 30%;
+  text-align: center;
+  transition: 0.4s;
+  background-color: white;
+}
+
+.mobile-nav.is-active {
+  left: 0;
+}
+
+.mobile-nav a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 200%;
+}
+
+.mobile-nav a:hover {
+  background-color: purple;
+  transition: 0.4s;
+}
+
+#catagory_container {
+  display: flex inline-block;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 5%;
+  font-family: "Bebas Neue", cursive;
+}
+.catagory {
+  border: black 1px solid;
+  display: inline-block;
+  width: 35%;
+  border-radius: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.catagory p {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  font-size: 2rem;
+  color: white;
+}
+
+#congregation {
+  background-image: url(church2.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#faith {
+  background-image: url(help.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 830px) {
+  body:before {
     content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: white;
-    margin: 6px 0px;
-    transition: 0.4s;
-    border-radius: 0.2em;
-  }
-  
-  .hamburger.is-active:before {
-    transform: rotate(-45deg) translate(-8px, 6px);
-  }
-  
-  .hamburger.is-active:after {
-    transform: rotate(45deg) translate(-8px, -6px);
-  }
-  
-  .hamburger.is-active .bar {
-    opacity: 0;
-  }
-  
-  .mobile-nav {
+    background-image: inherit;
     position: fixed;
     top: 0;
-    left: 100%;
-    width: 100%;
-    height: 100%;
-    display: block;
-    margin-top: 15%;
-    margin-bottom: none;
-    z-index: 98;
-    padding-top: 30%;
-    text-align: center;
-    transition: 0.4s;
-    background-color: white;
-    
-    
-  }
-  
-  .mobile-nav.is-active {
     left: 0;
-  }
-  
-  .mobile-nav a {
-    display: block;
-    color: black;
-    text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    font-size: 200%;
-  }
-  
-  .mobile-nav a:hover {
-    background-color: purple;
-    transition: 0.4s;
-  }
-
-  #catagory_container {
-    display: flex inline-block;
-    align-items: center;
-    text-align: center;
+    height: 100vh;
     width: 100%;
-    justify-content: space-between;
-    margin-top: 5%;
-    font-family: 'Bebas Neue', cursive;
-  }
-  .catagory {
-    border: black 1px solid;
-    display: inline-block;
-    width: 35%;
-    border-radius: 30%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-right: 3%;
-    margin-left: 3%;
-  }
-  
-  .catagory p {
-    padding-top: 20%;
-    padding-bottom:20%;
-    font-size: 2rem;
-    color: white;
-  }
-
-  #congregation {
-    background-image: url(church2.JPG);
-    background-repeat: no-repeat;
-    background-size: cover
-  }
-  
-  #faith {
-    background-image: url(help.jpg);
-    background-repeat: no-repeat;
-    background-size: cover
-  }
-
- @media only screen and (max-width: 830px) {
-
-  body:before {
-    content: ""; 
-    background-image: inherit;
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    height: 100vh; 
-    width: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;
     z-index: -1;
     background-position-x: 35%;
-}
+  }
 
   #landing {
     display: flex;
@@ -195,10 +191,9 @@ body {
   .catagory {
     width: 40%;
   }
+}
 
- }
-
- @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .name {
     font-size: 3.5rem;
     margin-top: 33%;
@@ -208,76 +203,61 @@ body {
     width: 155px;
     height: 155px;
   }
-
 }
 
-  @media only screen and (max-width: 415px) {
-
-    #landing {
-      justify-content: flex-start;
-      margin-bottom: 20%;
-    }
-
-    
-    .name_box {
-      display: none;
-    }
-    
-
-    .logo {
-      margin-left: 0;
-      padding-left: 0;
-    }
-
-    #church_logo {
-      margin-left: 0;
-      padding-left: 0;
-      width: 100px;
-      height: 100px;
-      display: inline-block;;
-      
-    }
-
-    
-
-    #button_box {
-      display: inline-block;
-      margin-top: 7%;
-      margin-left: 20%;
-      
-    }
-
-    
-
-   
-    .catagory_container {
-      text-align: center;
-      margin-top: 10%;
-    }
-
-    .catagory {
-      display: inline-block;
-      width: 70%;
-      margin: 10%;
-    }
-
-    .mobile-nav {
-      margin-top: 35%;
-    }
-
+@media only screen and (max-width: 415px) {
+  #landing {
+    justify-content: flex-start;
+    margin-bottom: 20%;
   }
 
-  @media only screen and (max-width: 290px) {
-    .mobile-nav {
-      margin-top: 40%;
-    }
+  .name_box {
+    display: none;
   }
 
-  @media only screen and (min-width: 750px) {
-    #button_box {
-      display: none;
-    }
-
-    
-
+  .logo {
+    margin-left: 0;
+    padding-left: 0;
   }
+
+  #church_logo {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+
+  #button_box {
+    display: inline-block;
+    margin-top: 7%;
+    margin-left: 20%;
+  }
+
+  .catagory_container {
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .catagory {
+    display: inline-block;
+    width: 70%;
+    margin: 10%;
+  }
+
+  .mobile-nav {
+    margin-top: 35%;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .mobile-nav {
+    margin-top: 40%;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #button_box {
+    display: none;
+  }
+}

@@ -5,7 +5,7 @@ body {
   background-attachment: fixed;
   background-position: bottom;
   height: 100%;
-  color: ;
+  
   padding-bottom: 5%;
   font-family: "Heebo", sans-serif;
 }
@@ -22,18 +22,17 @@ body {
 }
 
 #nav_container {
-  backdrop-filter: blur(8px);
+  background: rgb(153,170,165);
+background: linear-gradient(90deg, rgba(153,170,165,1) 16%, rgba(201,173,137,1) 49%);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   border-bottom: 2px solid black;
-  -webkit-filter: blur(20px);
-    -moz-filter: blur(20px);
-    -o-filter: blur(20px);
-    -ms-filter: blur(20px);
-    filter: blur(20px);
-    opacity: 0.4;
+  
+    
+    
+    
 }
 
 .landing_box {

@@ -26,7 +26,8 @@ body {
   }
   
   #nav_container {
-  backdrop-filter: blur(8px);
+    background: rgb(153,170,165);
+    background: linear-gradient(90deg, rgba(153,170,165,1) 16%, rgba(201,173,137,1) 49%);
   position: fixed;
     top: 0;
     left: 0;
