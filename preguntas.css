@@ -148,12 +148,15 @@ background: linear-gradient(90deg, rgba(4,18,63,1) 16%, rgba(4,37,92,1) 49%);
   .info_container {
       display: flex;
       justify-content: space-evenly;
-      align-content: center;
+      
   }
 
   .flyer {
-    margin-left: 30%;
     width: 40%;
+  }
+
+  #flyer_container {
+    text-align: center;
   }
 
   .flyer-info {
@@ -250,7 +253,7 @@ background: linear-gradient(90deg, rgba(4,18,63,1) 16%, rgba(4,37,92,1) 49%);
       
     }
   
-    #h3_div h3 {
+    .h3_div h3 {
       margin-top: 0;
       font-size: 2.5rem;
     }
@@ -309,17 +312,21 @@ background: linear-gradient(90deg, rgba(4,18,63,1) 16%, rgba(4,37,92,1) 49%);
       margin-top: 32%;
     }
 
-    #info_container {
+    .info_container {
       flex-direction: column;
       align-items: center;
     }
     
   
-    #h3_div h3 {
+    .h3_div h3 {
       font-size: 2rem;
       margin-top: 30%;
     }
    
+    .flyer {
+      width: 80%;
+    }
+
     img {
       width: 90%;
       margin-top: 5%;
@@ -353,12 +360,12 @@ background: linear-gradient(90deg, rgba(4,18,63,1) 16%, rgba(4,37,92,1) 49%);
       margin-top: 40%;
     }
 
-    #info_container {
+    .info_container {
       flex-direction: column;
       align-items: center;
     }
 
-    #h3_div h3 {
+    .h3_div h3 {
       font-size: 2rem;
       margin-top: 40%;
     }
