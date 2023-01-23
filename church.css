@@ -25,6 +25,16 @@ body {
   text-align: center;
 }
 
+#translation {
+	text-align: center;
+	width: 100%;
+}
+
+#translation p a {
+	font-size: 2rem; 
+	color: white;
+}
+
 .name {
   font-size: 5rem;
 }
