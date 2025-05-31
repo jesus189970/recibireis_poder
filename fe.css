@@ -162,6 +162,10 @@ p {
     font-size: 1.3rem;
 }
 
+h2 {
+  text-align: center;
+}
+
 @media only screen and (max-width: 1200px) {
 
   body:before {
