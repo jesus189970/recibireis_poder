@@ -1,5 +1,5 @@
 body {
-  background-image: url("dove.png");
+  background-image: url("Altar1.png");
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -462,6 +462,12 @@ footer a img {
 }
 
 @media only screen and (max-width: 365px) {
+
+body {
+  background-image: ;
+  background-position: left center;
+}
+
   #church_logo {
     width: 150px;
     height: 150px;
@@ -478,6 +484,11 @@ footer a img {
 
 
 @media only screen and (max-width: 325px) {
+
+  body {
+    background-position : ;
+  }
+
   #church_logo {
     width: 140px;
     height: 140px;
