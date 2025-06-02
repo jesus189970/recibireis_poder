@@ -136,6 +136,7 @@ footer a img {
   body:before {
     content: ""; 
     background-image: inherit;
+    background-position: 0px 0px ;
     position: fixed; 
     top: 0; 
     left: 0; 
@@ -146,7 +147,7 @@ footer a img {
     -o-background-size: cover;
     background-size: cover; 
     z-index: -1;
-    background-position-x: 35%;
+    background-position-x: 47%;
 }
 }
 
@@ -167,7 +168,7 @@ footer a img {
     -o-background-size: cover;
     background-size: cover; 
     z-index: -1;
-    background-position-x: 35%;
+    background-position-x: 48%;
 }
 
   #landing {
@@ -247,6 +248,11 @@ footer a img {
 }
 
 @media only screen and (max-width: 500px) {
+
+  body:before {
+    background-position-x: 49%;
+  }
+
   .name {
     display: none;
   }
@@ -465,7 +471,7 @@ footer a img {
 
 body {
   background-image: ;
-  background-position: left center;
+  background-position:  center;
 }
 
   #church_logo {
