@@ -9,6 +9,8 @@ body {
   font-family: "Bebas Neue", cursive;
 }
 
+
+
 #church_logo {
   width: 200px;
   height: 200px;
@@ -166,7 +168,7 @@ footer a img {
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;
     z-index: -1;
     background-position-x: 48%;
 }
@@ -249,8 +251,15 @@ footer a img {
 
 @media only screen and (max-width: 500px) {
 
+
+
   body:before {
-    background-position-x: 49%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-image: fixed;
+    background-color: black;
+    
   }
 
   .name {
@@ -471,7 +480,8 @@ footer a img {
 
 body {
   background-image: ;
-  background-position:  center;
+  background-position:  ;
+  background-size: 100% 100%;
 }
 
   #church_logo {
@@ -492,7 +502,7 @@ body {
 @media only screen and (max-width: 325px) {
 
   body {
-    background-position : ;
+    background-size: auto;
   }
 
   #church_logo {
