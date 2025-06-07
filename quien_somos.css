@@ -1,15 +1,18 @@
 body {
-  background-image: url("dove.png");
+  background-image: url("New_assembly1.png");
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
   color: white;
   font-family: "Bebas Neue", cursive;
+  
+
 }
 
 #wrapper {
   background-image: url("dove.png");
+  
 }
 
 #church_logo {
