@@ -309,7 +309,7 @@ background: linear-gradient(90deg, rgba(4,18,63,1) 16%, rgba(4,37,92,1) 49%);
   
    }
   
-  @media only screen and (max-width: 415px) {
+  @media only screen and (max-width: 475px) {
   
     body {
       text-align: center;
